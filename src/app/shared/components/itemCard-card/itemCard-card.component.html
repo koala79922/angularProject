@@ -1,0 +1,26 @@
+<mat-card class="itemCard-card" *ngIf="itemCard" [@fadeIn]="fadeIn">
+  <mat-card-header>
+    <a mat-card-avatar [routerLink]="itemCard.default ? [routesConfig.routes.itemCards.detail(itemCard.id)] : []">
+      <img alt="itemCard avatar" mat-card-avatar [src]="itemCard.avatarThumbnailUrl">
+    </a>
+    <mat-card-title>
+      <a class="itemCard-detail-link" [routerLink]="itemCard.default ? [routesConfig.routes.itemCards.detail(itemCard.id)] : []">
+        {{itemCard.name}}
+      </a>
+    </mat-card-title>
+    <mat-card-subtitle>
+      <a class="itemCard-detail-link" [routerLink]="itemCard.default ? [routesConfig.routes.itemCards.detail(itemCard.id)] : []">
+        {{itemCard.alterEgo}}
+      </a>
+    </mat-card-subtitle>
+    <div class="flex-spacer"></div>
+    <div class="itemCard-actions">
+      {{itemCard.likes}}
+      <mat-icon class="icon__like--red" (click)="like(itemCard)">favorite
+      </mat-icon>
+    </div>
+  </mat-card-header>
+  <a class="itemCard-detail-link" [routerLink]="itemCard.default ? [routesConfig.routes.itemCards.detail(itemCard.id)] : []">
+    <img alt="{{itemCard.name}} itemCard image" [defaultImage]="itemCard.avatarBlurredUrl" [lazyLoad]="itemCard.avatarUrl">
+  </a>
+</mat-card>

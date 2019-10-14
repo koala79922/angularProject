@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="en">
+    <body>
+      <trans-unit id="home" datatype="html">
+        <source>
+          Home
+        </source><target state="final">Home</target>
+
+      <context-group purpose="location"><context context-type="sourcefile">app/shared/components/header/header.component.html</context><context context-type="linenumber">5</context></context-group></trans-unit><trans-unit id="findItemCard" datatype="html">
+        <source>Look for a itemCard!</source><target state="final">Look for a itemCard!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/search-bar/search-bar.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="angularExampleApp" datatype="html">
+        <source>Angular Example App 2019</source><target state="final">Angular Example App 2019</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/components/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="offlineMessage" datatype="html">
+        <source>Without connection we can not load anything!</source>
+        <target state="final">Without connection we can not load anything!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="topitemCards" datatype="html">
+        <source>itemCards most liked</source><target state="final">itemCards most liked</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/pages/home-page/home-page.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="error404" datatype="html">
+        <source>404 Error</source><target state="final">404 Error</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/pages/error404-page/error404-page.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mayTheForce" datatype="html">
+        <source>May the force be with you</source><target state="final">May the force be with you</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/shared/pages/error404-page/error404-page.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="removeItemCard" datatype="html">
+        <source>Delete itemCard</source><target state="final">Delete itemCard</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/modules/itemCards/components/itemCard-remove/itemCard-remove.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="areYouSure" datatype="html">
+        <source>Are you sure?</source><target state="final">Are you sure?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/modules/itemCards/components/itemCard-remove/itemCard-remove.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="no" datatype="html">
+        <source>No</source><target state="final">No</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/modules/itemCards/components/itemCard-remove/itemCard-remove.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="yes" datatype="html">
+        <source>Yes</source><target state="final">Yes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/modules/itemCards/components/itemCard-remove/itemCard-remove.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="itemCardsList" datatype="html">
+        <source>
+          itemCards list
+        </source><target state="final">
+          itemCards list
+        </target>
+
+      <context-group purpose="location"><context context-type="sourcefile">app/shared/components/header/header.component.html</context><context context-type="linenumber">8</context></context-group><context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">2</context></context-group></trans-unit>
+      <trans-unit id="createItemCard" datatype="html">
+        <source>Create a itemCard</source><target state="final">Create a itemCard</target>
+
+      <context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">46</context></context-group></trans-unit>
+      <trans-unit id="create" datatype="html">
+        <source>Create</source><target state="final">Create</target>
+
+
+      <context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">56</context></context-group><context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">89</context></context-group></trans-unit>
+      <trans-unit id="nameWithPalindrome" datatype="html">
+        <source>Name (Palindrome?)</source><target state="final">Name (Palindrome?)</target>
+
+      <context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">64</context></context-group></trans-unit>
+      <trans-unit id="nameRequired" datatype="html">
+        <source>
+            Name is required
+          </source><target state="final">
+            Name is required
+          </target>
+
+
+      <context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">67</context></context-group><context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">80</context></context-group></trans-unit>
+      <trans-unit id="maxLengthError" datatype="html">
+        <source>
+            The field is too long
+          </source><target state="final">
+            The field is too long
+          </target>
+
+
+      <context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">70</context></context-group><context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">83</context></context-group></trans-unit>
+      <trans-unit id="realName" datatype="html">
+        <source>Real name</source><target state="final">Real name</target>
+
+      <context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">77</context></context-group></trans-unit>
+      <trans-unit id="errorHasOcurred" datatype="html">
+        <source>An error has ocurred</source><target state="final">An error has ocurred</target>
+
+      <context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">92</context></context-group></trans-unit>
+      <trans-unit id="firstTwoitemCardsById" datatype="html">
+        <source>itemCards (1-2)</source><target state="final">itemCards (1-2)</target>
+
+      <context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.html</context><context context-type="linenumber">97</context></context-group></trans-unit>
+      <trans-unit id="itemCardDetail" datatype="html">
+        <source>ItemCard detail</source><target state="final">ItemCard detail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/modules/itemCards/pages/itemCard-detail-page/itemCard-detail-page.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="goBack" datatype="html">
+        <source>
+  Go back
+</source><target state="final">
+  Go back
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/modules/itemCards/pages/itemCard-detail-page/itemCard-detail-page.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="anchorToItemCard" datatype="html">
+        <source>
+  Anchor the itemCard
+</source><target state="final">
+  Anchor the itemCard
+</target>
+
+      <context-group purpose="location"><context context-type="sourcefile">app/modules/itemCards/pages/itemCard-detail-page/itemCard-detail-page.component.html</context><context context-type="linenumber">13</context></context-group></trans-unit><trans-unit id="@@appTitle" datatype="html">
+        <source>App title</source><target state="final">App title</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit><trans-unit id="@@homeMetaDescription" datatype="html">
+        <source>Home meta description</source><target state="final">Home meta description</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit><trans-unit id="@@itemCardsMetaDescription" datatype="html">
+        <source>itemCards meta description</source><target state="final">itemCards meta description</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit><trans-unit id="@@changeBrowser" datatype="html">
+        <source>Change your browser</source><target state="final">Change your browser</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit><trans-unit id="@@updateBrowser" datatype="html">
+        <source>Update your browser</source><target state="final">Update your browser</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit><trans-unit id="@@itemCardCreated" datatype="html">
+        <source>ItemCard created</source><target state="final">ItemCard created</target>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.ts</context><context context-type="linenumber">1</context></context-group></trans-unit><trans-unit id="@@saved" datatype="html">
+        <source>Saved</source><target state="final">Saved</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/itemCards/shared/itemCard.service.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit><trans-unit id="@@cannotVote" datatype="html">
+        <source>Can't vote anymore</source><target state="final">Can't vote anymore</target>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.ts</context><context context-type="linenumber">1</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/shared/components/itemCard-card/itemCard-card.component.ts</context><context context-type="linenumber">1</context></context-group></trans-unit><trans-unit id="@@itemCardRemoved" datatype="html">
+        <source>ItemCard removed</source><target state="final">ItemCard removed</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit><trans-unit id="@@yeahPalindrome" datatype="html">
+        <source>Yeah that's a Palindrome!</source><target state="final">Yeah that's a Palindrome!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/itemCards/pages/itemCards-list-page/itemCards-list-page.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

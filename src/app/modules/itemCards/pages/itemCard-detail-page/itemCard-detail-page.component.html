@@ -1,0 +1,19 @@
+<h1 class="header__title" i18n="@@itemCardDetail">ItemCard detail</h1>
+<div class="container" *ngIf="!itemCard">
+  <app-itemCard-loading></app-itemCard-loading>
+</div>
+<div class="container" *ngIf="itemCard" [@fadeIn]="fadeIn">
+  <ng-container>
+    <app-itemCard-card [itemCard]="itemCard"></app-itemCard-card>
+    <div id="itemCard-json">
+      <pre>{{itemCard | json}}</pre>
+    </div>
+  </ng-container>
+</div>
+<button *ngIf="itemCard" aria-label="Anchor the itemCard button" mat-raised-button type="button" (click)="goToTheAnchor()"
+        i18n="@@anchorToItemCard">
+  Anchor the itemCard
+</button>
+<button aria-label="Go back button" mat-raised-button type="button" (click)="goBack()" i18n="@@goBack">
+  Go back
+</button>

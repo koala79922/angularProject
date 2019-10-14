@@ -1,0 +1,12 @@
+<mat-form-field id="search-input">
+  <input matInput placeholder="Look for my resume" [matAutocomplete]="itemCardsAutocomplete" [formControl]="itemCardFormControl">
+</mat-form-field>
+
+<mat-autocomplete #itemCardsAutocomplete="matAutocomplete">
+  <mat-option *ngFor="let itemCard of filtereditemCards"
+              [value]="itemCard.name">
+    <a class="itemCard-link" [routerLink]="[routesConfig.routes.itemCards.detail(itemCard.id)]">
+      {{itemCard.name | capitalizefirst}}
+    </a>
+  </mat-option>
+</mat-autocomplete>
